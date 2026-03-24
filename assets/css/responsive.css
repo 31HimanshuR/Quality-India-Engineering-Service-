@@ -1,0 +1,310 @@
+ /* =====================================
+     GLOBAL NAVBAR RESPONSIVE
+=====================================  */
+
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    background: #0b0f14;
+    padding: 20px;
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .dropdown-menu {
+    position: static;
+    border: none;
+  }
+
+  .nav-btn {
+    margin-top: 10px;
+  }
+}
+
+
+ /* =====================================
+     FOOTER RESPONSIVE
+=====================================  */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+ /* ===================================== HOME PAGE STARTS =====================================  */
+ /* =====================================
+     HOME HERO RESPONSIVE
+=====================================  */
+@media (max-width: 768px) {
+
+  .hero {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+}
+
+ /* =====================================
+     HOME ABOUT RESPONSIVE
+=====================================  */
+
+@media (max-width: 768px) {
+
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image {
+    order: -1;
+  }
+
+  .about-badge {
+    position: static;
+    margin-top: 15px;
+  }
+}
+
+
+ /* =====================================
+     HOME SERVICES RESPONSIVE
+=====================================  */
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+ /* =====================================
+     HOME PROJECTS RESPONSIVE
+=====================================  */
+@media (max-width: 992px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+ /* =====================================
+     HOME CERT SECTION RESPONSIVE
+=====================================  */
+@media (max-width: 992px) {
+
+  .cert-cards-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cert-stats-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .cert-cards-row {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-stats-row {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-box {
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .stat-box:last-child {
+    border-bottom: none;
+  }
+}
+
+/* =========================  HOME PAGE ENDS ========================= */
+
+
+/* =========================  ABOUT PAGE STARTS ========================= */
+/* =========================
+   ABOUT HERO RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+  .about-hero {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .about-hero-content h1 {
+    font-size: 2rem;
+  }
+
+}
+
+/* =========================
+   ABOUT COMPANY (WHO ARE WE) SECTION 
+========================= */
+@media (max-width: 768px) {
+
+  .who-container {
+    grid-template-columns: 1fr;
+  }
+
+  .who-image {
+    order: -1;
+  }
+
+}
+
+/* =========================
+   MISSION VISION RESPONSIVE 
+========================= */
+@media (max-width: 992px) {
+  .mv-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .mv-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   WHY CHOOSE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+  .why-container {
+    grid-template-columns: 1fr;
+  }
+
+  .why-image {
+    order: -1;
+  }
+
+}
+
+/* =========================  MAIN SERVICE  PAGE STARTS ========================= */
+/* =========================
+   SERVICES HERO RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+  .services-hero {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .services-hero-content h1 {
+    font-size: 2rem;
+  }
+
+}
+
+/* =========================
+   SERVICES SURVEY SECTION RESPONSIVE
+========================= */
+@media (max-width: 992px) {
+  .survey-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .survey-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   SERVICES PILE SECTION RESPONSIVE
+========================= */
+@media (max-width: 992px) {
+  .pile-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .pile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* =========================
+   SERVICES DRONE SECTION RESPONSIVE
+========================= */
+@media (max-width: 992px) {
+  .drone-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .drone-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   SERVICES STRENGTH  SECTION RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .strength-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   SERVICES NDT RESPONSIVE
+========================= */
+@media (max-width: 992px) {
+  .ndt-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .ndt-grid {
+    grid-template-columns: 1fr;
+  }
+}
